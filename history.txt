@@ -1,0 +1,196 @@
+    1  sudo apt install build-essential dkms linux-headers-$(uname -r)
+    2  ls -lrh
+    3  ls
+    4  sudo vi etc/ssh/sshd_config
+    5  pwd
+    6  cd home
+    7  ~
+    8  git clone https://github.com/libgit2/libgit2
+    9  pwd
+   10  git status
+   11  cd home/vuyisile/libgit2
+   12  cd /home/vuyisile/libgit2
+   13  git status
+   14  echo 'My project'>README
+   15  git status
+   16  git add README
+   17  git status
+   18  git add CONTRIBUTING.md
+   19  git status
+   20  vim contributing.md
+   21  git status
+   22  git add contributing.md
+   23  git add CONTRIBUTING.md
+   24  cd /home/vuyisile/libgit2/docs
+   25  git add CONTRIBUTING.md
+   26  cd /home/vuyisile/libgit2
+   27  git add contributing.md
+   28  git add contributing
+   29  git status
+   30  git add contributing.md
+   31  git status -s
+   32  cat .gitignore
+   33  *.[oa]
+   34  ignore all .a files
+   35  *.a
+   36  git status
+   37  git diff
+   38  git diff --staged
+   39  git add contributing.md
+   40  git add readme
+   41  git add README
+   42  git add CONTRIBUTING.md
+   43  echo '#test line' >> README
+   44  git status
+   45  git diff cached
+   46  git diff --cached
+   47  git commit
+   48  git add readme.md
+   49  git add README.md
+   50  git add /home/vuyisile/libgit2/docs/CONTRIBUTING.md
+   51  git add /vuyisile/libgit2/docs/CONTRIBUTING.md
+   52  git add /docs/CONTRIBUTING.md
+   53  git add docs/CONTRIBUTING.md
+   54  git commit
+   55  git add readme
+   56  git add README
+   57  git commit
+   58  git commit -m
+   59  git commit -m "story 182"
+   60  git status
+   61  git commit -a
+   62  git commit -a "done"
+   63  git commit -a
+   64  git status
+   65  rm projects.md
+   66  rm PROJECTS.md
+   67  cd
+   68  rm PROJECTS.md
+   69  cd /home/vuyisile/libgit2
+   70  rm project.md
+   71  rm projects
+   72  git status 
+   73  cd /home/vuyisile/libgit2/docs
+   74  rm project.md
+   75  rm projects.md
+   76  git status
+   77  git rm projects.md
+   78  git status
+   79  add contributing.md
+   80  git add contributing.md
+   81  git status
+   82  git commit
+   83  git commit -a
+   84  git commit -a "finally"
+   85  git commit - "finally"
+   86  git commit -m "finally"
+   87  git status 
+   88  git mv README.md README
+   89  cd /vuyisile/libgit2
+   90  cd /home/vuyisile/libgit2
+   91  git mv README.md README
+   92  git status
+   93  git mv README.md README
+   94  mv README.md README
+   95  git rm README.md 
+   96  git add README
+   97  git status
+   98  git clone https://github.com/schacon/simplegit-progit
+   99  git log
+  100  git status
+  101  git log -p -2
+  102  git log --stat
+  103  git log --pretty=oneline
+  104  git log --pretty=format:"%h %s" --graph
+  105  git log --since=2.weeks
+  106  git log <2>
+  107  git log -<2>
+  108  git commit --amend
+  109  q
+  110  git status
+  111  cd /home/vuyisile/libgit2
+  112  git status
+  113  git reset head contributing.md
+  114  git reset HEAD CONTRIBUTING.md
+  115  git status
+  116  git restore
+  117  git restore --staged contributing.md
+  118  cd /home/vuyisile/libgit2/docs
+  119  git restore --staged contributing.md
+  120  git status
+  121  git restore CONTRIBUTING.md
+  122  git restore  contributing.md
+  123  git status
+  124  git remote -v
+  125  cd grit
+  126  cd /home/vuyisile/libgit2/simplegit-progit
+  127  git remote -v
+  128  ls
+  129  cd /home/vuyisile/libgit2
+  130  mkdir git-basic-excecises
+  131  cd /home/vuyisile/git-basic-excercises
+  132  cd /home/vuyisile/git-basic-excecises
+  133  ls -a
+  134  git init 
+  135  ls -a
+  136  git status
+  137  touch README.md
+  138  ls -a
+  139  git status
+  140  git log
+  141  git add
+  142  git add readme.md
+  143  git add README.md
+  144  git status
+  145  git reset README.md
+  146  git status
+  147  git add README.md
+  148  git status
+  149  git commit -m "initial commit"
+  150  git log
+  151  nano README.md
+  152  cat README.md
+  153  git status
+  154  git add README.md
+  155  git commit -m "Second commit"
+  156  git status
+  157  nano README.md
+  158  git status
+  159  git add README.md
+  160  git status
+  161  git commit 
+  162  git commit -m "Third commit"
+  163  git status
+  164  cat README.md
+  165  nano README.md
+  166  cat README.md
+  167  git log
+  168  git checkout [200~45ccc820a7039d5956d0c3022f3702edba9a2be4~
+  169  git checkout 45ccc820a7039d5956d0c3022f3702edba9a2be4
+  170  cat README.md
+  171  git checkout main
+  172  cat README.md
+  173  git branch
+  174  branch milkshake-flavours
+  175  git branch milkshake-flavours
+  176  git branch
+  177  git checkout main
+  178  git checkout milkshake-flavours
+  179  git branch
+  180  git checkout main
+  181  git branch
+  182  git checkout milkshake-flavours
+  183  nano
+  184  nano milkshakes.md
+  185  git status
+  186  git add milkshakes.md
+  187  git commit -m "added initial flavours"
+  188  git log
+  189  git checkout main
+  190  git checkout
+  191  git branch
+  192  git branch history
+  193  git branch
+  194  git checkout history
+  195  git log
+  196  history>history.txt
